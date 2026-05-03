@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run *)",
+      "Bash(cd /d \"C:\\\\Users\\\\Avinash\\\\weather\")",
+      "Bash(uv sync *)"
+    ]
+  }
+}

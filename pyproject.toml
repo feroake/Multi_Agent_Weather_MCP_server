@@ -1,0 +1,17 @@
+[project]
+name = "weather"
+version = "0.1.0"
+description = "Basic tutorial for building MCP server and integrating with claude code on desktop"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.27.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-cov>=4.1.0",
+]
